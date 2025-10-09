@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowLeft, Star, Check, X, Zap, Wifi, Shield, DollarSign, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -32,12 +33,16 @@ export default function ProductReviewPage({ params }: { params: { slug: string }
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Product Image */}
           <div className="relative">
-            <div className="sticky top-8 bg-white rounded-3xl p-8 shadow-xl">
-              <img
-                src={product.image || "/placeholder.svg"}
-                alt={product.name}
-                className="w-full h-auto object-contain"
-              />
+            <div className="sticky top-32 bg-white rounded-3xl p-8 shadow-xl">
+              <div className="relative w-full aspect-square">
+                <Image
+                  src={product.image || "/placeholder.svg"}
+                  alt={product.name}
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
               <div className="mt-6 flex items-center justify-between">
                 <div>
                   <div className="flex items-center gap-2 mb-2">
@@ -56,7 +61,6 @@ export default function ProductReviewPage({ params }: { params: { slug: string }
                   <p className="text-sm text-muted-foreground">{product.reviews} reviews</p>
                 </div>
                 <div className="text-right">
-                  
                   <Badge variant="secondary" className="mt-2">
                     {product.category}
                   </Badge>
