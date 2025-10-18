@@ -51,7 +51,7 @@ export const products = [
     ],
     description:
       "The TP-Link Kasa Smart Wi-Fi Plug Mini is a reliable and compact smart plug, ideal for controlling devices remotely with voice or app control.",
-    amazonLink: "https://www.amazon.com/TP-Link-Kasa-Smart-Wifi-Plug/dp/B07RCNB2L3/ref=sr_1_1?crid=FQ0J5IO5CMDM&dib=eyJ2IjoiMSJ9.TUc_-T2ZQJ_lJHXWUjanyiC5_NiXAHXoqPULB7BBS5VzNixSojKaDiRsGmgZCfX82yJtC08TFvDaire775GIooheEbF_Vhv5SpO-7OTfbGbBMzi3gWcuQ2-GnRv4f0Er.LEL7k6LXDpOUo_xNa4yP5rrgD4O8qULhM_NpRIqZUm0&dib_tag=se&keywords=TP-Link%2BKasa%2BSmart%2BPlug%2BHS103&qid=1760030342&sprefix=tp-link%2Bkasa%2Bsmart%2Bplug%2Bhs103%2Caps%2C742&sr=8-1&th=1",
+    amazonLink: "https://www.amazon.com/TP-Link-Kasa-Smart-Wifi-Plug/dp/B07RCNB2L3",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       "Max Load": "15A",
@@ -111,7 +111,7 @@ export const products = [
     ],
     description:
       "The Amazon Smart Plug is designed for seamless integration with Alexa, offering simple setup and reliable control for Alexa ecosystem users.",
-    amazonLink: "https://www.amazon.com/Amazon-smart-plug-works-with-Alexa/dp/B089DR29T6/ref=sr_1_1?crid=2VEU7YAJXAW83&dib=eyJ2IjoiMSJ9.p6R_SdmgXajMqpT0t0FhGlM47olHM9nLCt3s5Zh2TtsISCbvRdkN82ESxWjsEDSH6E03uVzvoT65oenElEIuVxD7Px3oGnsjdWGoGdufDdHAGhXKB1dQKmoNDM6uThfYCUNXvSHIb_6DT006qTQD50v1uQRU0IoFdjQBDTCKnbuO1f0FGYGVSm3nYnlgee7VBFmhJ4caZPAtyjaN0Kqv1dzjfg3Xsb2ETjVtmT9k0yc.fYnwKVUjhL3WDi9o8xVYoGn3SMj_u_WCluwYiiR5MhQ&dib_tag=se&keywords=Amazon%2BSmart%2BPlug&qid=1760030416&sprefix=amazon%2Bsmart%2Bplug%2Caps%2C793&sr=8-1&th=1",
+    amazonLink: "https://www.amazon.com/Amazon-smart-plug-works-with-Alexa/dp/B089DR29T6",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       "Max Load": "15A",
@@ -171,7 +171,7 @@ export const products = [
     ],
     description:
       "The Wemo Mini Smart Plug offers excellent HomeKit support and a compact design, making it a great choice for Apple users and multi-platform households.",
-    amazonLink: "https://www.amazon.com/43K-720-0224R-Compatible-Assistant-HomeKit-F7C063-CC/dp/B07Y1BNZGQ/ref=sr_1_3?crid=38MI41BIJZL95&dib=eyJ2IjoiMSJ9.0X4ype4RIC8eg9jWuIZxMp_Jrz3B4FzEQx84ZBj5u_ljcmI3tnVhYY0XHEDFLVYP4YsYdlfHVlm8EDIWG8ZtQVHPLSBT63VN2i7BM2-FAQvCQJG0ConorL1Ucqyze9Dc.IZ-L0kkYVRtD0yMfnBNZLnH3cQxF7LG4-XgCKZXQJJM&dib_tag=se&keywords=Wemo+Mini+Smart+Plug&qid=1760030453&sprefix=wemo+mini+smart+plug%2Caps%2C268&sr=8-3",
+    amazonLink: "https://www.amazon.com/43K-720-0224R-Compatible-Assistant-HomeKit-F7C063-CC/dp/B07Y1BNZGQ",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       "Max Load": "15A",
@@ -231,7 +231,7 @@ export const products = [
     ],
     description:
       "The Kasa Smart Plug Mini HS105 offers energy monitoring and reliable smart control at a budget-friendly price, perfect for cost-conscious users.",
-    amazonLink: "https://www.amazon.com/Kasa-Smart-Monitoring-Compact-Certified/dp/B0BYGMR4DX/ref=sr_1_2?crid=2TPTPRYCGMN4T&dib=eyJ2IjoiMSJ9.alz40NUu5MYlxtuBJr9uGbpGuAPSwuyQ2Ow19ut4pv5KgXakPQisHdfM0b1jD5TKjeRqq-MLGCkn4N2DTjV_OupGQeG0766XV0ohPsGoFuQ.78l9P19GXrzRh1u15Pz1PpTUKDVlRWNfgZAfHGdsYKU&dib_tag=se&keywords=Kasa+Smart+Plug+HS105&qid=1760030482&sprefix=kasa+smart+plug+hs105%2Caps%2C264&sr=8-2",
+    amazonLink: "https://www.amazon.com/Kasa-Smart-Monitoring-Compact-Certified/dp/B0BYGMR4DX",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       "Max Load": "15A",
@@ -291,7 +291,7 @@ export const products = [
     ],
     description:
       "The Gosund Smart Plug Mini is a value-packed option for multi-device control, offering compatibility with Alexa and Google at a competitive price.",
-    amazonLink: "https://www.amazon.com/Smart-Compatible-Function-Supports-Required/dp/B09JZKK3KS/ref=sr_1_2?crid=1D6KPACB4GASP&dib=eyJ2IjoiMSJ9.OE9AHOAlx1lBEmAOgl05KosB-l3jlEyto0fLXqITUGKg42hNiXISk2ZkueI09DV0.gcdOqEQfHgMsjYtuaJQUvrYMCWF_h6vL9FshM5HXx9I&dib_tag=se&keywords=Gosund%2BSmart%2BPlug%2BMini&qid=1760030518&sprefix=gosund%2Bsmart%2Bplug%2Bmini%2Caps%2C269&sr=8-2&th=1",
+    amazonLink: "https://www.amazon.com/Smart-Compatible-Function-Supports-Required/dp/B09JZKK3KS",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       "Max Load": "10A",
@@ -352,7 +352,7 @@ export const products = [
     ],
     description:
       "The Meross Smart Wi-Fi Plug Mini offers native HomeKit support, making it a strong choice for Apple users and multi-platform smart homes.",
-    amazonLink: "https://www.amazon.com/Smart-Outdoor-Outlet-Compatible-HomeKit/dp/B08BFGRY9C/ref=sr_1_2?crid=23Y7J7CO8SNN4&dib=eyJ2IjoiMSJ9.0w1GKuCMiE1TMg1iODSIZZF2cAYMlt5wb-9aEppurNWlVnUNt8WsJyaZgqd1M04Bw0WV3kqEpyh3dOR6loqAxk_Rvh8E59UW7zaxO95PsnVI1xbTYg4I0aNIvVycz7tHK_CKPeHiWWvnJ-l6UzGPMGs06uxJvQQ_TYIEvrKdnQmZZCfA0jvz5T2v9rqoNGr0UW0YdEh6nZh-am0Ekz4JmQbU3GxclZh15QSNhLIhe2k.yw-MePY4aeKi9tV-MpVIK4lBsKSIUCxMOVGyCrQefNw&dib_tag=se&keywords=Meross+Smart+WiFi+Plug&qid=1760030546&sprefix=meross+smart+wifi+plug%2Caps%2C284&sr=8-2",
+    amazonLink: "https://www.amazon.com/Smart-Outdoor-Outlet-Compatible-HomeKit/dp/B08BFGRY9C",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       "Max Load": "15A",
@@ -412,7 +412,7 @@ export const products = [
     ],
     description:
       "The Wyze Plug Outdoor is a weatherproof smart plug with dual outlets and energy monitoring, ideal for outdoor use and budget-conscious buyers.",
-    amazonLink: "https://www.amazon.com/WYZE-Outdoor-Plug-Monitoring-Compatible/dp/B08NXY7WWX/ref=sr_1_2?crid=8FCKSMXBW1L3&dib=eyJ2IjoiMSJ9.PSxSztq2YTQ5oExHMIGYWuYR9vJmj0md8xhGbnYW-4BZh0_NKr32GAWg1gLGZxMxDLOhnEwmmD5pYAk3F0PF-jpaH2XXiXap4ieGUdoicdbAgY3SUqgbFL3ke1zVqIQn3TlCvrL_kyPdPe8c7BwmZN8ZHUlReQq62JK2dQTs3Jz_10s3v5MNM7PC8y99c2NH.UBUjww1UoqbjiWi5KIyeAYqptr0TeLNTepwKk13mLeI&dib_tag=se&keywords=Wyze+Smart+Plug&qid=1760030577&sprefix=wyze+smart+plug%2Caps%2C262&sr=8-2",
+    amazonLink: "https://www.amazon.com/WYZE-Outdoor-Plug-Monitoring-Compatible/dp/B08NXY7WWX",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       "Max Load": "15A per outlet",
@@ -472,7 +472,7 @@ export const products = [
     ],
     description:
       "The Kasa Smart Light Bulb 4-Pack offers dimmable, energy-efficient lighting with seamless smart home integration, perfect for versatile lighting control.",
-    amazonLink: "https://www.amazon.com/Kasa-Smart-Dimmable-800Lumens-KL110P4/dp/B08YP6T6GK/ref=sr_1_5?crid=Y41BJPC6PCC7&dib=eyJ2IjoiMSJ9.gXSmSSlbbZzsGNyuw1onqgNrYZ0cPs4jvKkDTPCDHRaZYliwF-YnPrcJMjFpWH4-XEQEv2OtWRjOoJ7zAtGtaeAP6F8yfJGh-XGjBQPyg7g.9bx6r4hx_2zr96qMHW91vIMxhnwjCUK_4tKSoLDL2VQ&dib_tag=se&keywords=TP-Link+Kasa+EP25&qid=1760030608&sprefix=tp-link+kasa+ep25%2Caps%2C256&sr=8-5",
+    amazonLink: "https://www.amazon.com/Kasa-Smart-Dimmable-800Lumens-KL110P4/dp/B08YP6T6GK",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       Brightness: "800 lumens",
@@ -532,7 +532,7 @@ export const products = [
     ],
     description:
       "The Eve Energy Strip is a premium power strip with HomeKit support, offering advanced safety features and energy monitoring for Apple users.",
-    amazonLink: "https://www.amazon.com/Eve-Energy-Strip-overvoltage-overcurrent/dp/B07PX57RH4/ref=sr_1_4?crid=SHWC7GU6EPZW&dib=eyJ2IjoiMSJ9.VLT5hD4HsEsW7WlqVKPxjDU9FZz37jw2sMXBZPLEwqtieClUuDiHn2XN7ZTeSzTUl_rWW7VbfQYT7e_sxDUmHjBgFHxNVnLWVR6-qfs5JUkno_jptnnVzqDb_4zH7wdyWTD2-xhmjuIGc7RAw6Qh5DJ6YNtbh2eq7yx2h8IwGzGrT8HqYXgxpJDV5rm_3eYYbqzDUKYgjSyXb05O6LShw2Hfstvt3gQDwgPPCxI2Tok.u7YcPRl2zXv5Ee1Y6dccyjSVdE92l2N51G9S57PTQsU&dib_tag=se&keywords=Eve%2BEnergy%2BSmart%2BPlug&qid=1760030640&sprefix=eve%2Benergy%2Bsmart%2Bplug%2Caps%2C267&sr=8-4&th=1",
+    amazonLink: "https://www.amazon.com/Eve-Energy-Strip-overvoltage-overcurrent/dp/B07PX57RH4",
     specs: {
       Connectivity: "Wi-Fi 2.4GHz",
       "Max Load": "15A, 1800W total",
