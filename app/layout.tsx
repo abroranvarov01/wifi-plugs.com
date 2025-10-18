@@ -11,35 +11,35 @@ import { Navbar } from "@/components/navbar"
 import { Suspense } from "react"
 
 const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-  display: "swap",
+	subsets: ["latin"],
+	variable: "--font-playfair",
+	display: "swap",
 })
 
-export const metadata: Metadata = {
-  title: "WiFi Plugs - Smart Home Solutions | wifi-plugs.com",
-  description:
-    "Discover the best smart WiFi plugs and sockets for your home. Expert reviews, comparisons, and buying guides for TP-Link, Amazon, and more.",
-  keywords: "smart plugs, wifi sockets, smart home, TP-Link Kasa, home automation",
-    generator: 'v0.app'
+export const metadata: any = {
+	title: "WiFi Plugs - Smart Home Solutions | wifi-plugs.com",
+	description:
+		"Discover the best smart WiFi plugs and sockets for your home. Expert reviews, comparisons, and buying guides for TP-Link, Amazon, and more.",
+	keywords: "smart plugs, wifi sockets, smart home, TP-Link Kasa, home automation",
+	referrer: 'unsafe-url'
 }
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode
+	children: React.ReactNode
 }>) {
-  return (
-    <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${playfair.variable}`}>
-        <Suspense fallback={<div>Loading...</div>}>
-          <Navbar />
-          {children}
-          <Footer />
-          <CookieConsent />
-          <Analytics />
-        </Suspense>
-      </body>
-    </html>
-  )
+	return (
+		<html lang="en">
+			<body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${playfair.variable}`}>
+				<Suspense fallback={<div>Loading...</div>}>
+					<Navbar />
+					{children}
+					<Footer />
+					<CookieConsent />
+					<Analytics />
+				</Suspense>
+			</body>
+		</html>
+	)
 }

@@ -11,19 +11,18 @@ import { StatsSection } from "@/components/home/stats-section"
 import { CTASection } from "@/components/home/cta-section"
 
 export default function HomePage() {
-  return (
-    <main className="min-h-screen">
-      <Navbar />
-      <HeroSection />
-      <FeaturesSection />
-      <HowItWorksSection />
-      <BenefitsSection />
-      <TopPicksSection />
-      <ComparisonSection />
-      <TestimonialsSection />
-      <StatsSection />
-      <FAQSection />
-      <CTASection />
-    </main>
-  )
+	return (
+		<main className="min-h-screen">
+			<Navbar />
+			<HeroSection />
+			<FeaturesSection />
+			<HowItWorksSection />
+			<BenefitsSection />
+			<TopPicksSection />
+			<ComparisonSection />
+			<TestimonialsSection />
+			<FAQSection />
+			<CTASection />
+		</main>
+	)
 }

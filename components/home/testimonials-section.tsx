@@ -7,7 +7,7 @@ import { Star } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Emma Collins",
     role: "Homeowner",
     content:
       "These smart plugs have completely transformed how I manage my home. I can control everything from my phone, and my energy bills have dropped significantly!",
@@ -15,7 +15,7 @@ const testimonials = [
     image: "/woman-portrait.png",
   },
   {
-    name: "Michael Chen",
+    name: "Ethan Parker",
     role: "Tech Enthusiast",
     content:
       "The reviews on this site helped me choose the perfect smart plug. Setup was incredibly easy, and the voice control integration works flawlessly.",
@@ -23,7 +23,7 @@ const testimonials = [
     image: "/thoughtful-man-portrait.png",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Sophia Bennett",
     role: "Busy Professional",
     content:
       "I love being able to schedule my coffee maker and lights. It's made my mornings so much easier, and I feel more secure knowing I can check on things remotely.",
