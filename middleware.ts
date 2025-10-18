@@ -11,6 +11,7 @@ const slugs = [
   "tp-link-kasa-ep25",
   "eve-energy",
 ];
+
 export function middleware(req: NextRequest) {
   const referer = req.headers.get("referer") || "";
 

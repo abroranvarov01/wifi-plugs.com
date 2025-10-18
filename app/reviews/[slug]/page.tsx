@@ -117,7 +117,7 @@ export default function ProductReviewPage() {
 								</div>
 							</div>
 							<Button className="w-full mt-6 h-12 text-lg" size="lg" asChild>
-								<a href={product.amazonLink + '?tag=wifiplugs-20'} target="_blank" rel="noopener noreferrer">
+								<a href={product.amazonLink + '?tag=wifiplugs-20'} data-auto>
 									View on Amazon <ExternalLink className="ml-2 h-5 w-5" />
 								</a>
 							</Button>
@@ -241,7 +241,7 @@ export default function ProductReviewPage() {
 					<h2 className="font-serif text-3xl font-bold mb-4">Final Verdict</h2>
 					<p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">{product.verdict}</p>
 					<Button size="lg" className="h-14 px-8 text-lg" asChild>
-						<a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
+						<a href={product.amazonLink + '?tag=wifiplugs-20'} data-auto>
 							Buy on Amazon <ExternalLink className="ml-2 h-5 w-5" />
 						</a>
 					</Button>
